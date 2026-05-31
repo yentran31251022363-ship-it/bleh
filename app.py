@@ -155,7 +155,13 @@ IMG_SIZE    = 128
 NUM_CLASSES = 22
 
 # Default class labels — replace with your actual names in sidebar
-DEFAULT_LABELS = [f"Person_{i+1:02d}" for i in range(NUM_CLASSES)]
+DEFAULT_LABELS = [
+    "Phạm Nguyễn Bảo Châu", "HoangKyAnh", "Lê Quang Dũng", "Lê Tuấn Thành", "Lương Ngọc Thuận",
+    "Nguyen Ngọc Bao", "Nguyễn Hoàng Quế Châu", "Nguyễn Phạm Hoàng An", "Nguyễn Tiến Mạnh", "Nguyễn Việt Đức",
+    "Nguyễn Đặng Vinh Phúc", "Phạm Gia Thành Duy", "Phạm Hứa Nhật Minh", "Phạm Phú Hoà", "Trần Hải Yến",
+    "Vũ Quang Thái", "Đoàn Hùng", "Đỗ An Phúc", "Đinh Hữu Khánh Anh", "Ngô Quốc Trung",
+    "Nguyễn Thị Khánh Lê", "Nguyễn Thị Ngọc Tuyết"
+]
 
 # ─── Load Model ───────────────────────────────────────────────────────────────
 @st.cache_resource(show_spinner="Đang tải model AI…")
