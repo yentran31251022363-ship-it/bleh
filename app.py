@@ -155,13 +155,30 @@ IMG_SIZE    = 128
 NUM_CLASSES = 22
 
 # Default class labels — replace with your actual names in sidebar
-DEFAULT_LABELS = [
-    "Phạm Nguyễn Bảo Châu", "HoangKyAnh", "Lê Quang Dũng", "Lê Tuấn Thành", "Lương Ngọc Thuận",
-    "Nguyen Ngọc Bao", "Nguyễn Hoàng Quế Châu", "Nguyễn Phạm Hoàng An", "Nguyễn Tiến Mạnh", "Nguyễn Việt Đức",
-    "Nguyễn Đặng Vinh Phúc", "Phạm Gia Thành Duy", "Phạm Hứa Nhật Minh", "Phạm Phú Hoà", "Trần Hải Yến",
-    "Vũ Quang Thái", "Đoàn Hùng", "Đỗ An Phúc", "Đinh Hữu Khánh Anh", "Ngô Quốc Trung",
-    "Nguyễn Thị Khánh Lê", "Nguyễn Thị Ngọc Tuyết"
-]
+DEFAULT_LABELS = {
+    "Person_01": "Phạm Nguyễn Bảo Châu",
+    "Person_02": "HoangKyAnh",
+    "Person_03": "Lê Quang Dũng",
+    "Person_04": "Lê Tuấn Thành",
+    "Person_05": "Lương Ngọc Thuận",
+    "Person_06": "Nguyen Ngọc Bao",
+    "Person_07": "Nguyễn Hoàng Quế Châu",
+    "Person_08": "Nguyễn Phạm Hoàng An",
+    "Person_09": "Nguyễn Tiến Mạnh",
+    "Person_10": "Nguyễn Việt Đức",
+    "Person_11": "Nguyễn Đặng Vinh Phúc",
+    "Person_12": "Phạm Gia Thành Duy",
+    "Person_13": "Phạm Hứa Nhật Minh",
+    "Person_14": "Phạm Phú Hoà",
+    "Person_15": "Trần Hải Yến",
+    "Person_16": "Vũ Quang Thái",
+    "Person_17": "Đoàn Hùng",
+    "Person_18": "Đỗ An Phúc",
+    "Person_19": "Đinh Hữu Khánh Anh",
+    "Person_20": "Ngô Quốc Trung",
+    "Person_21": "Nguyễn Thị Khánh Lê",
+    "Person_22": "Nguyễn Thị Ngọc Tuyết"
+}
 
 # ─── Load Model ───────────────────────────────────────────────────────────────
 @st.cache_resource(show_spinner="Đang tải model AI…")
